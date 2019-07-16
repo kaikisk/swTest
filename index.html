@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<head>
+    <title>swTest</title>
+    <script> 
+        console.log('loading serviceworker');
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("./serviceworker.js");
+          }
+    </script>
+</head>
+
+<body>
+    <p>swのテストホームページ</p>
+</body>
