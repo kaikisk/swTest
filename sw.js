@@ -13,5 +13,6 @@ self.addEventListener('fetch', function(event) {});
 var temp = 0;
 setInterval(function(){
     console.log(temp);
+    alert(temp);
     temp+=1;
 }, 1000);
